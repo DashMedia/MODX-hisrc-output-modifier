@@ -35,7 +35,7 @@ if(isset($options) && !is_null($options)){
 } else {
 	//options not included, execute as snippet call
 	$out = "snippet:";
-	$settingsArray = array('w', 'h', 'zc', 'q0', 'q1', 'q2', 'img','far','iar','bg');
+	$settingsArray = array('w', 'h', 'zc', 'q0', 'q1', 'q2', 'img','far','iar','bg','aoe', 'wp', 'hp', 'wl', 'hl', 'ws', 'hs', 'f', 'sx', 'sy', 'sw', 'sh', 'bc', 'fltr', 'md5s', 'xto', 'ra', 'ar', 'sfn', 'dpi', 'sia', 'maxb', 'down');
 	foreach ($settingsArray as $key => $value) {
 		if(isset(${$value})){
 			$settings[$value] = ${$value};
