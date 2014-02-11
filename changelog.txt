@@ -1,0 +1,10 @@
+==hisrc 1.0.1pl==
+- no longer need to specify BOTH width and height
+
+==hisrc 1.0.0pl==
+-updated to i
+-include all phpthumb options
+
+==pre-release==
+-add support for far, iar and bg
+-inital commit
