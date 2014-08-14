@@ -1,3 +1,6 @@
+==hisrc 1.0.2pl==
+- hisrc snippet no longer static
+
 ==hisrc 1.0.1pl==
 - no longer need to specify BOTH width and height
 
